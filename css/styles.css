@@ -1,0 +1,238 @@
+:root {
+  --header-color: #2196f3;
+  --accent-color: #ffffff;
+  --text-color: #212121;
+  --font-weight: 700;
+  --basetext-color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.hidden-head {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+
+/*----------------HEADER----------------*/
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.logo-header {
+  color: #000000;
+}
+
+.nav-list-item.current {
+  color: var(--header-color);
+}
+.nav-list-item,
+.header-tel,
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--header-color);
+}
+
+.header-tel,
+.mail {
+  color: var(--basetext-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--header-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--header-color);
+}
+
+/* -------------Hero------------------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-h {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.hero-bt {
+  font-family: inherit;
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color);
+  background-color: var(--header-color);
+  cursor: pointer;
+}
+.hero-bt:hover,
+.hero-bt:focus {
+  background-color: #188ce8;
+}
+
+/* -------------Benefits---------------- */
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+.bts-header {
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.bts-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+}
+
+/* --------------About---------------- */
+.about {
+}
+.about-header {
+  font-weight: var(--font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+.about-list {
+}
+
+/* --------------Our team------------- */
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-list {
+}
+
+.oteam-items {
+  background-color: var(--accent-color);
+}
+.oteem-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.oteem-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+}
+/*--------------Footer------------------*/
+.basement {
+  background-color: #2F303A;
+}
+.logo-footer {
+  color: var(--accent-color);
+}
+.basement-adr {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+/* ----------------------PORTFOLIO---------------------------- */
+/* -------------Our services------------- */
+
+.our-services {
+}
+
+.oserv-but {
+}
+
+.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.filter:hover,
+.filter:focus {
+  background: var(--header-color);
+  color: var(--accent-color);
+}
+
+.oserv-list {
+}
+
+.OServ-item {
+}
+
+.oserv-item-head {
+  font-weight: var(--font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.oserv-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+}
