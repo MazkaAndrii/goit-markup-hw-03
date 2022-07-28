@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +19,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <a lang="en" href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
         <nav class="nav">
@@ -31,14 +34,13 @@
           <li><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
         </ul>
       </div>
-      
     </header>
     <main>
       <section class="hero">
         <div class="container">
-        <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-bt">Заказать услугу</button>
-      </div>
+          <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-bt">Заказать услугу</button>
+        </div>
       </section>
 
       <section class="benefits">
@@ -63,7 +65,7 @@
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-          
+
             <li class="benefits-item">
               <h3 class="bts-header">Современные технологии</h3>
               <p class="bts-text">
@@ -72,61 +74,66 @@
             </li>
           </ul>
         </div>
-        
       </section>
 
-      <section class="about">
-        <div class="container"><h2 class="about-header">Чем мы занимаемся</h2>
-        <ul class="about-list list">
-          <li><img src="./images/comp.jpg" alt="Программирование" width="370" height="294" /></li>
-          <li>
-            <img src="./images/phone.jpg" alt="Адаптивная верстка" width="370" height="294" />
-          </li>
-          <li><img src="./images/tab.jpg" alt="Стилизация" width="370" height="294" /></li>
-        </ul>
-      </div>
-       
+      <section class="about section absec">
+        <div class="container">
+          <h2 class="about-header">Чем мы занимаемся</h2>
+          <ul class="about-list list">
+            <li><img src="./images/comp.jpg" alt="Программирование" width="370" height="294" /></li>
+            <li>
+              <img src="./images/phone.jpg" alt="Адаптивная верстка" width="370" height="294" />
+            </li>
+            <li><img src="./images/tab.jpg" alt="Стилизация" width="370" height="294" /></li>
+          </ul>
+        </div>
       </section>
 
-      <section class="our-team">
+      <section class="our-team section">
         <div class="container">
           <h2 class="about-header">Наша команда</h2>
           <ul class="our-team-list list">
             <li class="oteam-items">
               <img src="./images/demyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+              <div class="oteam-text">
               <h3 class="oteem-header">Игорь Демьяненко</h3>
               <p lang="en" class="oteem-position">Product Designer</p>
+            </div>
             </li>
             <li class="oteam-items">
               <img src="./images/repina.jpg" alt="Ольга Репина" width="270" height="260" />
+              <div class="oteam-text">
               <h3 class="oteem-header">Ольга Репина</h3>
               <p lang="en" class="oteem-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="oteam-items">
               <img src="./images/tarasov.jpg" alt="Николай Тарасов" width="270" height="260" />
+              <div class="oteam-text">
               <h3 class="oteem-header">Николай Тарасов</h3>
               <p lang="en" class="oteem-position">Marketing</p>
+              </div>
             </li>
             <li class="oteam-items">
+              <div class="oteam-text">
               <img src="./images/yermakov.jpg" alt="Михаил Ермаков" width="270" height="260" />
               <h3 class="oteem-header">Михаил Ермаков</h3>
               <p lang="en" class="oteem-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
-        
       </section>
     </main>
     <footer class="basement">
       <div class="container">
-        <a lang="en" href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
+        <a lang="en" href="./index.html" class="ft">Web<span class="logo-footer">Studio</span></a>
         <address class="basement-adr">
           г. Киев, пр-т Леси Украинки, 26
           <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
           <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
         </address>
       </div>
-     
     </footer>
   </body>
 </html>

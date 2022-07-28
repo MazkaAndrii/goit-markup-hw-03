@@ -8,6 +8,9 @@
 
 .list {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 .link {
@@ -26,22 +29,54 @@
   margin: -1px;
 }
 
+.section {
+  padding: 94px 0px;
+}
+
+.absec {
+  padding-top: 0px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--accent-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   outline: 2px solid tomato;
 }
 
 /*----------------HEADER----------------*/
+
+.header {
+  padding: 10px 0px 15px;
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   font-family: Raleway;
@@ -52,6 +87,8 @@ body {
   color: var(--header-color);
   text-decoration: none;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-header {
   color: #000000;
@@ -92,15 +129,21 @@ body {
 /* -------------Hero------------------- */
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 .hero-h {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color);
+  max-width: 695px;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 .hero-bt {
   font-family: inherit;
@@ -109,11 +152,14 @@ body {
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--accent-color);
   background-color: var(--header-color);
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .hero-bt:hover,
 .hero-bt:focus {
@@ -122,6 +168,8 @@ body {
 
 /* -------------Benefits---------------- */
 .benefits {
+  padding-top: 68px;
+  padding-bottom: 94px;
 }
 
 .benefits-list {
@@ -136,12 +184,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .bts-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--basetext-color);
+  margin: 0px;
+  max-width: 270px;
 }
 
 /* --------------About---------------- */
@@ -153,8 +205,10 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--text-color);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 375px;
 }
 .about-list {
 }
@@ -177,6 +231,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 10px;
 }
 .oteem-position {
   font-size: 16px;
@@ -185,19 +240,41 @@ body {
   letter-spacing: 0.03em;
   color: var(--basetext-color);
 }
+
+.oteam-text {
+  padding: 30px 60px;
+}
 /*--------------Footer------------------*/
 .basement {
-  background-color: #2F303A;
+  background-color: #2f303a;
+}
+
+.ft {
+  display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding-top: 60px;
+  margin-bottom: 20px;
 }
 .logo-footer {
   color: var(--accent-color);
+  padding-top: 60px;
 }
 .basement-adr {
+  display: block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  padding-bottom: 60px;
+  max-width: 231px;
 }
 
 /* ----------------------PORTFOLIO---------------------------- */
@@ -219,6 +296,10 @@ body {
   color: var(--text-color);
   background: #f5f4fa;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
 }
 .filter:hover,
 .filter:focus {
