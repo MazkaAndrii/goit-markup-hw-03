@@ -284,6 +284,7 @@ h6 {
 }
 
 .oserv-but {
+  margin-bottom: 34px;
 }
 
 .filter {
@@ -325,4 +326,7 @@ h6 {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--basetext-color);
+}
+.oserv-text {
+  padding: 20px 24px;
 }
