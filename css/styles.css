@@ -14,6 +14,7 @@
 
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .link {
@@ -71,7 +72,6 @@ h6 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 /*----------------HEADER----------------*/
@@ -139,6 +139,10 @@ h6 {
   column-gap: 50px;
 }
 
+.mail {
+  margin: 9px auto;
+}
+
 /* -------------Hero------------------- */
 .hero {
   background-color: #2f303a;
@@ -185,11 +189,6 @@ h6 {
   padding-bottom: 94px;
 }
 
-.benefits-list {
-}
-
-.benefits-item {
-}
 .bts-header {
   font-weight: var(--font-weight);
   font-size: 14px;
@@ -210,8 +209,6 @@ h6 {
 }
 
 /* --------------About---------------- */
-.about {
-}
 .about-header {
   font-weight: var(--font-weight);
   font-size: 36px;
@@ -221,9 +218,6 @@ h6 {
   color: var(--text-color);
   margin: 0 auto;
   margin-bottom: 50px;
-  max-width: 375px;
-}
-.about-list {
 }
 
 /* --------------Our team------------- */
@@ -231,11 +225,10 @@ h6 {
   background-color: #f5f4fa;
 }
 
-.our-team-list {
-}
-
 .oteam-items {
   background-color: var(--accent-color);
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100%-30px;) / 3);
 }
 .oteem-header {
   font-weight: 500;
@@ -244,7 +237,7 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-bottom: 10px;
+  margin: 0px 0px 10px;
 }
 .oteem-position {
   font-size: 16px;
@@ -255,7 +248,9 @@ h6 {
 }
 
 .oteam-text {
-  padding: 30px 60px;
+  padding: 30px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 /*--------------Footer------------------*/
 .basement {
@@ -288,16 +283,18 @@ h6 {
   color: var(--accent-color);
   padding-bottom: 60px;
   max-width: 231px;
+  text-align: left;
+}
+.contacts-ft {
+  list-style: none;
 }
 
 /* ----------------------PORTFOLIO---------------------------- */
-/* -------------Our services------------- */
-
-.our-services {
-}
 
 .oserv-but {
   margin-bottom: 34px;
+  column-gap: 8px;
+  justify-content: center;
 }
 
 .filter {
@@ -314,6 +311,7 @@ h6 {
   padding: 6px 22px;
   min-width: 73px;
   text-align: center;
+  border: 0;
 }
 .filter:hover,
 .filter:focus {
@@ -322,9 +320,12 @@ h6 {
 }
 
 .oserv-list {
+  flex-wrap: wrap;
 }
 
-.OServ-item {
+.oserv-item {
+  
+  width: 370px;
 }
 
 .oserv-item-head {
@@ -342,4 +343,5 @@ h6 {
 }
 .oserv-text {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
