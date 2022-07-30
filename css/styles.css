@@ -19,6 +19,7 @@
 
 .link {
   text-decoration: none;
+  margin-bottom: 9px;
 }
 .hidden-head {
   position: absolute;
@@ -80,7 +81,6 @@ h6 {
   align-items: center;
 }
 .header {
-  padding: 10px 0px 15px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -185,7 +185,7 @@ h6 {
 
 /* -------------Benefits---------------- */
 .benefits {
-  padding-top: 68px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -205,9 +205,11 @@ h6 {
   letter-spacing: 0.03em;
   color: var(--basetext-color);
   margin: 0px;
-  max-width: 270px;
 }
 
+.benefits-item {
+  width: 270px;
+}
 /* --------------About---------------- */
 .about-header {
   font-weight: var(--font-weight);
@@ -255,6 +257,8 @@ h6 {
 /*--------------Footer------------------*/
 .basement {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .ft {
@@ -267,12 +271,11 @@ h6 {
   color: var(--header-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  padding-top: 60px;
+
   margin-bottom: 20px;
 }
 .logo-footer {
   color: var(--accent-color);
-  padding-top: 60px;
 }
 .basement-adr {
   display: block;
@@ -281,8 +284,6 @@ h6 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  padding-bottom: 60px;
-  max-width: 231px;
   text-align: left;
 }
 .contacts-ft {
@@ -292,7 +293,7 @@ h6 {
 /* ----------------------PORTFOLIO---------------------------- */
 
 .oserv-but {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   column-gap: 8px;
   justify-content: center;
 }
@@ -324,7 +325,6 @@ h6 {
 }
 
 .oserv-item {
-  
   width: 370px;
 }
 
@@ -334,6 +334,7 @@ h6 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color);
+  margin-bottom: 4px;
 }
 .oserv-item-text {
   font-size: 16px;
@@ -343,5 +344,7 @@ h6 {
 }
 .oserv-text {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
